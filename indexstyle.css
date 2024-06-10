@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(30,30,30);
+    color:rgb(230,230,230);
+    margin: 200px;
+    font-family: Corbel;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+#roofimage{
+    object-fit: cover;
+    border-radius: 25px;
+    text-align: center;
+    width: 255px;
+    height: 300px;
+    
+}
