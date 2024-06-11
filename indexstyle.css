@@ -4,11 +4,17 @@ body{
     font-family: Corbel;
 }
 h1 {
-    text-align: right;
+    text-align: center;
     font-size: 50px;
+    line-height: 0.001px;
 }
 p{
-    text-align: right;
+    text-align: left;
+    font-size: 30px;
+    line-height: 20px;
+}
+button{
+    margin: 10px;
 }
 .content{
     width: 50%;
@@ -18,12 +24,23 @@ p{
     display: flex;
 }
 .rightside{
-    display: grid;
+    display: flex;
     width: 100%;
     padding-right: 15px;
 }
+.buttons{
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+    margin:auto;
+}
+.text{
+    padding-right: 15px;
+    padding-left:50px;
+    width: 100%;
+}
 .leftside{
-    padding-left:15px;
+    padding-left:5px;
     width: 100%;
 }
 #roofimage{
