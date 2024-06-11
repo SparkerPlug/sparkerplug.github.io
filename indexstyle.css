@@ -13,9 +13,6 @@ p{
     font-size: 30px;
     line-height: 20px;
 }
-button{
-    margin: 10px;
-}
 .content{
     width: 50%;
     margin: 15%;
@@ -48,4 +45,15 @@ button{
     border-radius: 25px;
     width: 255px;
     height: 300px;
+}
+#GitButton{
+    object-fit: cover;
+    width:50px;
+    padding-bottom: 15px;
+}
+#LinkedButton{
+    object-fit: cover;
+    width: 50px;
+    padding-left: 3px;
+    padding-top: 10px;
 }
