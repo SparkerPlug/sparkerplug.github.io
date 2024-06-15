@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(30,30,30);
+    color:rgb(230,230,230);
+    font-family: Corbel;
+}
+.content{
+    width: 50%;
+    margin-top: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 25px;
+}
