@@ -87,3 +87,9 @@ h1 {
     width: 50px;
     padding-top: 20px;
 }
+@media (max-width: 1000px) {
+    #roofimage {
+      display: none;
+    }
+  }
+  
